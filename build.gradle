@@ -1,15 +1,16 @@
 plugins {
     id 'java'
 }
-
+//pacote
 group 'org.example'
 version '1.0-SNAPSHOT'
-
+//repositorio (baixa bibliotecas)
 repositories {
     mavenCentral()
-    //Repositorio: baixa bibliotecas
+    }
+//classe
+public static class medidas {
 }
-
 dependencies {
 }
 
