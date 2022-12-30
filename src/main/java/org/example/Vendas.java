@@ -9,10 +9,27 @@ package org.example;
 // 3. Classes
 public class Vendas {
     // 3.1 Atributos - caracteristicas
-    // 3.2 Metodos e funcoes
 
-    public static void main(Stringln[] args) {
-        System.out.println(Minha primeira função executada!);
+
+    // 3.2 Metodos e funcoes
+    public static void main(String[] args) {
+        System.out.println("Minha primeira funcao executada!");
+
+// Calculo do valor da venda - número de itens * valor unitario
+        //variáveis
+        int quantidade;
+        int valorunitario;
+        int total;
+
+        quantidade = 2;
+        valorunitario = 5;
+        total = quantidade * valorunitario;
+
+        System.out.println( "O valor total da compra é " + total + " reais" );
+
+
+
+
     }
 
 }

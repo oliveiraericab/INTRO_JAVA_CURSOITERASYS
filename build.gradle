@@ -4,6 +4,7 @@ plugins {
 //pacote
 group 'org.example'
 version '1.0-SNAPSHOT'
+
 //repositorio (baixa bibliotecas)
 repositories {
     mavenCentral()
