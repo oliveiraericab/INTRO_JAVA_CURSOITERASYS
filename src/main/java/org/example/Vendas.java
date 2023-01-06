@@ -13,7 +13,8 @@ public class Vendas {
 
     // 3.2 Metodos e funcoes
     public static void main(String[] args) {
-        System.out.println("Minha primeira funcao executada!");
+        System.out.println("Olá, Vendedor!");
+        System.out.println("Calcule o valor total da compra:");
                     // Cálculo de total código reduzido
             int quantidade = 3;
             int valorunitario = 5;
