@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8848940-fcaa-4bbc-b840-e3a14c3a7791" name="Changes" comment="Adicionei uma saudação na impressão no Console.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vendas.java" afterDir="false" />
-    </list>
+    <list default="true" id="a8848940-fcaa-4bbc-b840-e3a14c3a7791" name="Changes" comment="Exclui a saudação na impressão no Console.&#10;Tranformei os dois métodos (curto e extenso) em static, ambos rodam juntos na classe." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673047926380</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Exclui a saudação na impressão no Console.&#10;Tranformei os dois métodos (curto e extenso) em static, ambos rodam juntos na classe.">
+      <created>1673049360618</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673049360618</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,7 +141,8 @@
     <MESSAGE value="Criei um método para cálculo do valor da compra com codigo reduzido, porém não está rodando." />
     <MESSAGE value="Criei um método para cálculo do valor da compra com código reduzido." />
     <MESSAGE value="Adicionei uma saudação na impressão no Console." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionei uma saudação na impressão no Console." />
+    <MESSAGE value="Exclui a saudação na impressão no Console.&#10;Tranformei os dois métodos (curto e extenso) em static, ambos rodam juntos na classe." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exclui a saudação na impressão no Console.&#10;Tranformei os dois métodos (curto e extenso) em static, ambos rodam juntos na classe." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
