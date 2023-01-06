@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8848940-fcaa-4bbc-b840-e3a14c3a7791" name="Changes" comment="Criei um método para cálculo do valor da compra com código reduzido.">
+    <list default="true" id="a8848940-fcaa-4bbc-b840-e3a14c3a7791" name="Changes" comment="Adicionei uma saudação na impressão no Console.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vendas.java" afterDir="false" />
     </list>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672971944895</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adicionei uma saudação na impressão no Console.">
+      <created>1673047926380</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673047926380</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,7 +136,8 @@
     <MESSAGE value="Criei a classe &quot;Minha primeira função executada!&quot;;&#10;&#10;Criei um método para cálculo do valor da compra, multiplicando a quantidade pelo valor unitario." />
     <MESSAGE value="Criei um método para cálculo do valor da compra com codigo reduzido, porém não está rodando." />
     <MESSAGE value="Criei um método para cálculo do valor da compra com código reduzido." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criei um método para cálculo do valor da compra com código reduzido." />
+    <MESSAGE value="Adicionei uma saudação na impressão no Console." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionei uma saudação na impressão no Console." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -13,16 +13,20 @@ public class Vendas {
 
     // 3.2 Metodos e funcoes
     public static void main(String[] args) {
-        System.out.println("Olá, Vendedor!");
-        System.out.println("Calcule o valor total da compra:");
-                    // Cálculo de total código reduzido
-            int quantidade = 3;
-            int valorunitario = 5;
-            System.out.println( "(reduzido) Para compra de " + quantidade + " itens que custam " + valorunitario + " reais cada, o valor total da compra é " + quantidade * valorunitario + " reais." );
-
+        calculoTotalCodigoCurto();
+        calculoTotalCodigoExtenso();
         }
 
-    public void calculoTotalCodigoExtenso(){
+    public static void calculoTotalCodigoCurto(){
+        System.out.println("Calcule o valor total da compra: (reduzido)");
+        // Cálculo de total código reduzido
+        int quantidade = 3;
+        int valorunitario = 5;
+        System.out.println( "Para compra de " + quantidade + " itens que custam " + valorunitario + " reais cada, o valor total da compra é " + quantidade * valorunitario + " reais." );
+
+    }
+    public static void calculoTotalCodigoExtenso(){
+        System.out.println("Calcule o valor total da compra: (extenso)");
         // Calculo do valor da venda - número de itens * valor unitario
         //declaro as variáveis
         int quantidade;
@@ -33,7 +37,7 @@ public class Vendas {
         valorunitario = 5;
         total = quantidade * valorunitario;
 
-        System.out.println( "(extenso) Para compra de " + quantidade + " itens que custam " + valorunitario + " reais cada, o valor total da compra é " + total + " reais." );
+        System.out.println( "Para compra de " + quantidade + " itens que custam " + valorunitario + " reais cada, o valor total da compra é " + total + " reais." );
     }
 }
 
