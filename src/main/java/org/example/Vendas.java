@@ -14,22 +14,26 @@ public class Vendas {
     // 3.2 Metodos e funcoes
     public static void main(String[] args) {
         System.out.println("Minha primeira funcao executada!");
+                    // Cálculo de total código reduzido
+            int quantidade = 3;
+            int valorunitario = 5;
+            System.out.println( "(reduzido) Para compra de " + quantidade + " itens que custam " + valorunitario + " reais cada, o valor total da compra é " + quantidade * valorunitario + " reais." );
 
-// Calculo do valor da venda - número de itens * valor unitario
-        //variáveis
+        }
+
+    public void calculoTotalCodigoExtenso(){
+        // Calculo do valor da venda - número de itens * valor unitario
+        //declaro as variáveis
         int quantidade;
         int valorunitario;
         int total;
 
-        quantidade = 2;
+        quantidade = 3;
         valorunitario = 5;
         total = quantidade * valorunitario;
 
-        System.out.println( "O valor total da compra é " + total + " reais" );
-
-
-
-
+        System.out.println( "(extenso) Para compra de " + quantidade + " itens que custam " + valorunitario + " reais cada, o valor total da compra é " + total + " reais." );
     }
-
 }
+
+
