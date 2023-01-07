@@ -6,37 +6,51 @@ package org.example;
 
 // 2. Referência às bibliotecas
 
+import java.util.Scanner;
+
 // 3. Classes
 public class Vendas {
     // 3.1 Atributos - caracteristicas
     // 3.2 Metodos e funcoes
     public static void main(String[] args) {
         // Condicional é verificar uma condição - Fazer uma pergunta para uma pessoa, um hardware ou um software.
+
+        //Utilizar a classe Scanner do Java para ler a escolha do usuário no Console.
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("MENU DE OPÇÕES");
+        System.out.println("c - Calcular Area Modo Curto");
+        System.out.println("e - Calcular Area Modo Extenso");
+        System.out.println("i - ifSimples");
+        System.out.println("Digite a opcao desejada:");
+        String opcao = scanner.next();
+
         // Switch - selecionar o comportamento do programa conforme a escolha do usuário ou software.
-        String opcao = "curto";
         switch (opcao) {
-            case "ifSimples":
+            case "i":
+            case "I":
                 System.out.println("Você escolheu executar o método ifSimples");
                 ifSimples();
                 break;
-            case "curto":
+            case "c":
+            case "C":
                 System.out.println("Você escolheu executar o método calculoTotalCodigoCurto");
                 calculoTotalCodigoCurto();
                 break;
-            case "extenso":
+            case "e":
+            case "E":
                 System.out.println("Você escolheu executar o método calculoTotalCodigoExtenso");
                 calculoTotalCodigoExtenso();
                 break;
             default:
-                System.out.println("Você escolheu uma opção que não está associanda a nenhum método no sistema.");
+                System.out.println("Você escolheu uma opção que não está associada a nenhum método no sistema.");
         }
         }
     public static void ifSimples(){
         // Condicional é verificar uma condição - Fazer uma pergunta para uma pessoa, um hardware ou um software.
         // if - se
         // else - senão
-        String modo = "curto";
-        if (modo == "curto"){
+        String modo = "c";
+        if (modo == "c"){
             calculoTotalCodigoCurto();
         }
         else {
