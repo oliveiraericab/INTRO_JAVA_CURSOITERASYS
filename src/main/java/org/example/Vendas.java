@@ -18,9 +18,11 @@ public class Vendas {
         //Utilizar a classe Scanner do Java para ler a escolha do usuário no Console.
         Scanner scanner = new Scanner(System.in);
         System.out.println("MENU DE OPÇÕES");
-        System.out.println("c - Calcular Area Modo Curto");
-        System.out.println("e - Calcular Area Modo Extenso");
-        System.out.println("i - ifSimples");
+        System.out.println("c - Calcular Total da Venda Modo Curto");
+        System.out.println("e - Calcular Total da Venda Modo Extenso");
+        System.out.println("i - Calcular Total da Venda Modo ifSimples");
+        System.out.println("d - Contar Ate Dez de Forma Crescente");
+        System.out.println("r - Contar Ate Zero de Forma Regressiva");
         System.out.println("Digite a opcao desejada:");
         String opcao = scanner.next();
 
@@ -41,30 +43,42 @@ public class Vendas {
                 System.out.println("Você escolheu executar o método calculoTotalCodigoExtenso");
                 calculoTotalCodigoExtenso();
                 break;
+            case "d":
+            case "D":
+                System.out.println("Você escolheu executar o método contarAteDez Crescente");
+                contarAteDez();
+                break;
+            case "r":
+            case "R":
+                System.out.println("Você escolheu executar o método contarAteZero Regressivo");
+                contarAteZero();
+                break;
             default:
                 System.out.println("Você escolheu uma opção que não está associada a nenhum método no sistema.");
         }
-        }
-    public static void ifSimples(){
+    }
+
+    public static void ifSimples() {
         // Condicional é verificar uma condição - Fazer uma pergunta para uma pessoa, um hardware ou um software.
         // if - se
         // else - senão
         String modo = "c";
-        if (modo == "c"){
+        if (modo == "c") {
             calculoTotalCodigoCurto();
-        }
-        else {
+        } else {
             calculoTotalCodigoExtenso();
         }
     }
-    public static void calculoTotalCodigoCurto(){
+
+    public static void calculoTotalCodigoCurto() {
         System.out.println("Calcule o valor total da compra: (reduzido)");
         // Cálculo de total código reduzido
         int quantidade = 3;
         int valorunitario = 5;
-        System.out.println( "Para compra de " + quantidade + " itens que custam " + valorunitario + " reais cada, o valor total da compra é " + quantidade * valorunitario + " reais." );
+        System.out.println("Para compra de " + quantidade + " itens que custam " + valorunitario + " reais cada, o valor total da compra é " + quantidade * valorunitario + " reais.");
     }
-    public static void calculoTotalCodigoExtenso(){
+
+    public static void calculoTotalCodigoExtenso() {
         System.out.println("Calcule o valor total da compra: (extenso)");
         // Calculo do valor da venda - número de itens * valor unitario
         //declaro as variáveis
@@ -74,8 +88,24 @@ public class Vendas {
         quantidade = 3;
         valorunitario = 5;
         total = quantidade * valorunitario;
-        System.out.println( "Para compra de " + quantidade + " itens que custam " + valorunitario + " reais cada, o valor total da compra é " + total + " reais." );
+        System.out.println("Para compra de " + quantidade + " itens que custam " + valorunitario + " reais cada, o valor total da compra é " + total + " reais.");
     }
+
+    public static void contarAteDez() {
+        // Loops ou repetições. For - repetições incondicionais
+        System.out.println("Contagem Crescente:");
+        for (int numero = 1; numero <= 10; numero++) {
+            System.out.println(numero);
+        }
+    }
+
+    public static void contarAteZero() {
+        System.out.println("Contagem Regressiva:");
+        for (int numero = 10; numero > -1; numero--) {
+            System.out.println(numero);
+        }
+    }
+
 }
 
 
