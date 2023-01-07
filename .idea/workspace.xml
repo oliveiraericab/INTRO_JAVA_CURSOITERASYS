@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8848940-fcaa-4bbc-b840-e3a14c3a7791" name="Changes" comment="Exclui a saudação na impressão no Console.&#10;Tranformei os dois métodos (curto e extenso) em static, ambos rodam juntos na classe." />
+    <list default="true" id="a8848940-fcaa-4bbc-b840-e3a14c3a7791" name="Changes" comment="Exclui a saudação na impressão no Console.&#10;Tranformei os dois métodos (curto e extenso) em static, ambos rodam juntos na classe.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vendas.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673049360618</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Exclui a saudação na impressão no Console.&#10;Tranformei os dois métodos (curto e extenso) em static, ambos rodam juntos na classe.">
+      <created>1673049565587</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673049565587</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

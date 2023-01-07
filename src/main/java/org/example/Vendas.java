@@ -13,8 +13,16 @@ public class Vendas {
 
     // 3.2 Metodos e funcoes
     public static void main(String[] args) {
-        calculoTotalCodigoCurto();
-        calculoTotalCodigoExtenso();
+    // Condicional é verificar uma condição - Fazer uma pergunta para uma pessoa, um hardware ou um software.
+        // if - se
+        // else - senão
+        String modo = "curto";
+        if (modo == "curto"){
+            calculoTotalCodigoCurto();
+        }
+        else {
+            calculoTotalCodigoExtenso();
+        }
         }
 
     public static void calculoTotalCodigoCurto(){
