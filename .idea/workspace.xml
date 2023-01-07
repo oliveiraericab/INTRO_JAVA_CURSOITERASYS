@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8848940-fcaa-4bbc-b840-e3a14c3a7791" name="Changes" comment="Exclui a saudação na impressão no Console.&#10;Tranformei os dois métodos (curto e extenso) em static, ambos rodam juntos na classe.">
+    <list default="true" id="a8848940-fcaa-4bbc-b840-e3a14c3a7791" name="Changes" comment="Criei uma condicional para selecionar entre o modo curto e extenso, utilizando if e else.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vendas.java" afterDir="false" />
     </list>
@@ -131,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673049565587</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Criei uma condicional para selecionar entre o modo curto e extenso, utilizando if e else.">
+      <created>1673104315411</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673104315411</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,7 +159,8 @@
     <MESSAGE value="Criei um método para cálculo do valor da compra com código reduzido." />
     <MESSAGE value="Adicionei uma saudação na impressão no Console." />
     <MESSAGE value="Exclui a saudação na impressão no Console.&#10;Tranformei os dois métodos (curto e extenso) em static, ambos rodam juntos na classe." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exclui a saudação na impressão no Console.&#10;Tranformei os dois métodos (curto e extenso) em static, ambos rodam juntos na classe." />
+    <MESSAGE value="Criei uma condicional para selecionar entre o modo curto e extenso, utilizando if e else." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criei uma condicional para selecionar entre o modo curto e extenso, utilizando if e else." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
